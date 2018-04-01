@@ -1,0 +1,31 @@
+body{
+	background-image: url("http://kb4images.com/images/hd-desktop-wallpapers/36333973-hd-desktop-wallpapers.jpg");
+	background-repeat: no-repeat;
+}
+h1 {
+	color: red;
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    text-align: center;
+
+}
+h2{
+	font-family: 'Cabin Sketch';
+	color:#FBC02D;
+	text-align: center;
+	font-size: 35px;
+}
+button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 1em;
+}

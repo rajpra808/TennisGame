@@ -1,1 +1,34 @@
-hello WOrld
+
+<html>
+<head>
+	<title>Tanis Game</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<link rel="st<br/>ylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+	<link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+
+</head>
+<body>
+	<h1>Welcome</h1>
+	<h1> the Gaming World</h1>
+	<button id="Reset" onclick="Reset()">Reset</button>
+	<div class="Level1">
+		<h2>Select your level</h2>
+		<button id="Level" onclick="Game(1)">Level 1</button>
+		<button id="Level" onclick="Game(2)">Level 2</button>
+		<button id="Level" onclick="Game(3)">Level 3</button><br/>
+		<button id="Level" onclick="Game(4)">Level 4</button>
+		<button id="Level" onclick="Game(5)">Level 5</button><br/>
+		<button id="Level" onclick="Game(6)">Level 6</button>
+		<button id="Level" onclick="Game(7)">Level 7</button><br/>
+		
+		<!-- <button id="submit" onclick="jaiGame(getElementById('Level').value)">Play Now</button> -->
+
+	</div>
+
+	
+	<canvas id="game" height="600" width="800"></canvas>
+
+</body>
+</html>
